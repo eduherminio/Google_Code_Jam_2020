@@ -26,13 +26,11 @@ public:
 	int Number;
 	int Start;
 	int End;
-	std::list<std::pair<int, int>> OverlapPeriods;
 	std::string Person;
 
 	Activity(int number, int start, int end)
 		:Number(number), Start(start), End(end)
 	{
-		OverlapPeriods = std::list<std::pair<int, int>>();
 	}
 };
 
